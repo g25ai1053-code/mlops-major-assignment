@@ -26,7 +26,8 @@ main: Contains base project setup metadata (README.md, .gitignore).
 dev: Contains the primary machine learning code base (train.py, test.py) and the GitHub Actions automation logic.
 docker_cicd: Contains delivery files including the Flask web application backend (app.py), environmental Dockerfile, and the Kubernetes architecture manifests (k8s-deployment.yaml).
 
-.
+Architecture:
+```
 ├── .github/
 │   └── workflows/
 │       └── ci.yml             # GitHub Actions automation pipeline
@@ -38,7 +39,7 @@ docker_cicd: Contains delivery files including the Flask web application backend
 ├── k8s-deployment.yaml        # Kubernetes deployment & NodePort service manifest
 ├── .gitignore                 # Tracked path exclusion instructions
 └── README.md                  # Project documentation overview
-
+```
 
 
  Project Structure
